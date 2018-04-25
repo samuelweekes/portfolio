@@ -147,11 +147,11 @@
 }
 
 .project-title {
-color: #2c3e50;
-padding-top: 50px;
-font-size: 2em;
-text-align: center;
-padding-bottom: 50px;
+  color: #2c3e50;
+  padding-top: 50px;
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 .project-hr {
@@ -213,11 +213,100 @@ padding-bottom: 50px;
 .project-img-animate-left:nth-child(3) { animation-delay: 1.5s }
 .project-img-animate-right:nth-child(4) { animation-delay: 2s }
 
+/* ---------------------------Skill section--------------------------- */
+
+.skill {
+  height: 450px;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.skill-title {
+  color: #2c3e50;
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.skill-hr {
+  width: 80%;
+  max-width: 200px;
+  position: relative;
+  top: .5em;
+  margin: 0 auto auto;
+  border: none;
+  border-top: .3rem solid #2c3e50;
+}
+
+.skill-wrapper {
+  height: 100%;
+  margin-top: 25px;
+}
+
+.skill-container{
+margin-left: 3%;
+overflow: hidden;
+}
+
+.skill-hr1 {
+  position: relative;
+  bottom: 1em;
+  left: 5em;
+  height: .8em;
+  border: none;
+  background: tomato;
+  margin-right: 30%;
+  width: 40%;
+}
+
+.skill-hr2 {
+  position: relative;
+  bottom: 1em;
+  left: 5em;
+  height: .8em;
+  border: none;
+  background: skyblue;
+  margin-right: 30%;
+  width: 30%;
+}
+
+.skill-hr3 {
+  position: relative;
+  bottom: 1em;
+  left: 5em;
+  height: .8em;
+  border: none;
+  background: pink;
+  margin-right: 30%;
+  width: 20%;
+}
+
+.skill-hr4 {
+  position: relative;
+  bottom: 1em;
+  left: 5em;
+  height: .8em;
+  border: none;
+  background: purple;
+  margin-right: 30%;
+  width: 30%;
+}
+
+.skill-hr5 {
+  position: relative;
+  bottom: 1em;
+  left: 5em;
+  height: .8em;
+  border: none;
+  background: orange;
+  margin-right: 30%;
+  width: 45%;
+}
+
 /*---------------------------About me section---------------------------*/
 .about {
   height: 350px;
   width: 100%;
-  margin-top: 50px;
 }
 
 .about-me-title {
@@ -270,9 +359,9 @@ padding-bottom: 50px;
 }
 
 .about-me-text {
-    color: white;
-    max-width: 80ch;
-    margin: 0 auto auto;
+  color: white;
+  max-width: 80ch;
+  margin: 0 auto auto;
 }
 
 .about-me-text-wrapper {
@@ -291,7 +380,7 @@ padding-bottom: 50px;
 
 .contact-container {
   margin: 0 auto auto;
-  height: 100px;
+  height: 200px;
   max-width: 80%;
   display: flex;
   flex-direction: row;
@@ -341,6 +430,48 @@ padding-bottom: 50px;
 /* ---------------------------Media Queries--------------------------- */
 
 
+
+@media only screen and (min-width: 1224px) {
+  .home  {
+    height: 80vh;
+  }
+
+  .project  {
+    height: 100vh;
+  }
+
+  .project-container {
+    height: 80vh;
+  }
+
+  .project-img-left {
+    height: 300px;
+  }
+
+  .project-img-right {
+    height: 300px;
+  }
+
+  .contact-container {
+    margin-top: 100px;
+  }
+
+  .contact-offset {
+    margin-top: 100px;
+  }
+
+  .contact-offset img {
+    width: 75px;
+  }
+
+  .about  {
+    height: 50vh;
+  }
+
+  .contact {
+    height: 50vh;
+  }
+}
 
 /* ---------------------------Animation Keyframes--------------------------- */
 @keyframes typing {

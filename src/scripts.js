@@ -27,7 +27,7 @@ function scrollFunction() {
     aboutCode.classList.add('about-me-joke-animation');
   }
 
-  if(window.pageYOffset+700 >= getPos(contactSection).y*1.1) {
+  if(window.pageYOffset+700 >= getPos(contactSection).y) {
     for(i=0;i<contactItem.length;i++) {
       contactItem[i].classList.add('contact-item-animate');
     }
