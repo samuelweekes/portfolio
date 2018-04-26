@@ -527,7 +527,11 @@
   }
 
 .skill {
-  height: 50vh;
+height: 50vh;
+}
+
+.skill-wrapper {
+  height: 30%;
 }
 
   .skill-hr1 {

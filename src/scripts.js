@@ -25,7 +25,7 @@ function getPos(el) {
 }
 
 function scrollFunction() {
-  if(window.pageYOffset >= getPos(aboutSection).y*0.7) {
+  if(window.pageYOffset >= getPos(aboutSection).y*0.8) {
     aboutCode.classList.add('about-me-joke-animation');
   }
   if(window.pageYOffset+700 >= getPos(contactSection).y) {
@@ -41,7 +41,7 @@ function scrollFunction() {
       projectItemRight[x].classList.add('project-img-animate-right');
     }
   }
-  if(window.pageYOffset >= getPos(skillSection).y*0.7) {
+  if(window.pageYOffset >= getPos(skillSection).y*0.9) {
     for(let i=0;i<skills.length;i++) {
       skills[i].classList.add(skillsAnim[i]);
     }
