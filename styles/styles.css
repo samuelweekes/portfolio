@@ -170,13 +170,25 @@
   max-width: 800px;
 }
 
+.project-link {
+  text-decoration: none;
+}
+
+.project-img {
+  position: absolute;
+  top:25%;
+  left:25%;
+  width: 50%;
+  height: 50%;
+}
+
 .project-img-left {
   opacity: 0;
   width: 80%;
   max-width: 300px;
   height: 150px;
   margin: 10px;
-  background: black;
+  background: #2c3e50;
 }
 
 .project-img-right {
@@ -185,7 +197,7 @@
   max-width: 300px;
   height: 150px;
   margin: 10px;
-  background: black;
+  background: #2c3e50;
 }
 
 .project-img-animate-left {
@@ -211,11 +223,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: black;
+  background: white;
   opacity: 0;
   background-size: cover;
   transition: opacity 1s;
-
+  text-align: center;
 }
 
 .project-overlay:hover {
@@ -432,6 +445,12 @@
   max-width: 80ch;
   text-align: center;
   margin: 0 auto auto;
+}
+
+.in-touch {
+  color: black;
+  font-weight: 800;
+  text-decoration: none;
 }
 
 .about-me-text-wrapper {
